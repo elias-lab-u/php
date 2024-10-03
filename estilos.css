@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(204, 170, 209);
+    font-family: sans-serif;
+}
+.container{
+    margin: auto;
+    width: 90%;
+    margin-top: 10px;
+}
+h1{
+    font-size: 20pt;
+    color: rgba(11, 192, 165, 0.904);
+    background-color: rgba(216, 224, 223);
+    text-align: center;
+}
+p{
+    font-size: 18pt;
+    text-align: center;
+}
+input, button{
+    padding: 5px;
+}
+.img_product{
+    height: 200px;
+    width: 200px;
+    transition: 300ms;
+}
+.img_product:hover{
+    transform: scale(1.5);
+}
